@@ -1,0 +1,34 @@
+{
+  "name": "hubot-wip",
+  "version": "0.1.0",
+  "description": "Hubot plugin for Work In Progress reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/betterup/hubot-wip.git"
+  },
+  "keywords": [
+    "github",
+    "hubot",
+    "campfire",
+    "bot"
+  ],
+  "author": "Ryan Sonnek",
+  "license": "MIT",
+  "dependencies": {
+    "githubot": "^1.0.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "1.x",
+    "coffee-script": "*",
+    "hubot": "2.x",
+    "hubot-mock-adapter": "1.x",
+    "hubot-test-helper": "0.0.7",
+    "mocha": "1.x",
+    "sinon": "*"
+  }
+}
