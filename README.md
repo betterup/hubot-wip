@@ -5,9 +5,11 @@
 > What's in progress?
 
 ## Example usage:
-> Hubot what is in progress for myproject?
-> Hubot what is in progress for myorganization/myproject?
-> Hubot wip myproject
+```
+Hubot what is in progress for myproject?
+Hubot what is in progress for myorganization/myproject?
+Hubot wip myproject
+```
 
 ## Installation via NPM
 
